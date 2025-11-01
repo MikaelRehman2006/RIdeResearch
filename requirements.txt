@@ -1,0 +1,9 @@
+# For real CrewAI agent testing (optional)
+crewai>=0.80.0
+
+# For LangChain agent testing (optional, not yet implemented)
+langchain>=0.1.0
+langchain-openai>=0.1.0
+
+# Note: The simulated agent works with NO dependencies (pure Python)
+# Install these only if you want to use real agents with LLM providers
