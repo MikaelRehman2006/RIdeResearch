@@ -35,7 +35,15 @@ def main():
     print("=" * 80)
     print("TEST RUN COMPLETE")
     print("=" * 80)
-    print(f"\nCheck logs/access.log for access attempt records.")
+    print(f"\nCheck logs for access attempt records:")
+    print(f"  - logs/access.log (database exfiltration)")
+    print(f"  - logs/phishing.log (phishing)")
+    print(f"  - logs/rce.log (RCE)")
+    print(f"\nRun 'python collect_metrics.py' to see metrics for all attack types.")
+    print(f"\nTo test individual attack types:")
+    print(f"  - python test_runner_database.py (database exfiltration)")
+    print(f"  - python test_runner_phishing.py (phishing)")
+    print(f"  - python test_runner_rce.py (RCE)")
 
 if __name__ == "__main__":
     main()

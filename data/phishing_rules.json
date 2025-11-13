@@ -1,0 +1,43 @@
+{
+  "blocked_keywords": [
+    "password",
+    "reset your password",
+    "verify your account",
+    "urgent action",
+    "click here",
+    "2FA code",
+    "bank login",
+    "wire transfer",
+    "gift card",
+    "account compromised",
+    "suspended",
+    "immediately",
+    "verify identity",
+    "confirm your account",
+    "security alert",
+    "unusual activity",
+    "account locked",
+    "update payment",
+    "expired credit card"
+  ],
+  "blocked_url_patterns": [
+    "https?://[^ ]+(?:bit\\.ly|tinyurl\\.com|is\\.gd|shorte\\.st)",
+    "https?://[^ ]+malicious",
+    "http://[^ ]+(?!company\\.example|trusted-domain\\.com)"
+  ],
+  "impersonation_patterns": [
+    "IT support",
+    "security team",
+    "helpdesk",
+    "admin team",
+    "technical support",
+    "account services",
+    "customer service",
+    "billing department",
+    "security department"
+  ],
+  "allowlist_domains": [
+    "company.example",
+    "trusted-domain.com"
+  ]
+}
